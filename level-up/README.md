@@ -1,6 +1,12 @@
   <h1>
-    <span class="headline">[tktk Headline]</span>
+    <span class="headline">FastAPI Unit Testing with Pytest Lab</span>
     <span class="subhead">Level Up</span>
   </h1>
 
-tktk Optional student-facing level up content should be added here. Not all lab modules will have level up content - if it doesn't, the `level-up` directory should be deleted, and the link to it in the main `README.md` file should be removed.
+## **Stretch Goals (Optional)**
+
+If you finish early, consider adding tests for the **Comments** routes.
+
+- Write a test to add a comment to a tea (`POST /api/teas/{tea_id}/comments`).
+- Validate that retrieving a tea’s comments returns expected data (`GET /api/teas/{tea_id}/comments`).
+

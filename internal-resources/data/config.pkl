@@ -12,21 +12,29 @@ import "microlessons.pkl" as mls
 
 repo {
   // This name is shown in the header nav to navigate users home
-  friendlyName = "[tktk Headline]"
+  friendlyName = "FastAPI Unit Testing with Pytest Lab"
   // This must match the repo name as it appears on GitHub exactly
-  name = "tktk-module-name"
+  name = "python-fastapi-unit-testing-with-pytest-lab"
   type = "Lab"
 }
 
 courses {
   new {
+    name = "apd"
+    microlessons {
+      mls.setup
+      mls.exercise
+      (mls.levelUp) {
+        type = "Level Up content"
+      }
+    }
+  }
+  new {
     // Do not remove this fallback course!
     name = "fallback"
     microlessons {
-      // Add microlessons here, in the order they should be delivered
       mls.setup
       mls.exercise
-      // You can make course-specific adjustments using a syntax like this:
       (mls.levelUp) {
         type = "Level Up content"
       }
