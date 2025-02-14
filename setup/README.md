@@ -75,8 +75,8 @@ code .
 - The database connection string and secret are defined in the `config/environment.py` file:
 
   ```python
-  db_URI = "postgresql://postgres:postgres@localhost:5432/teas_db"
+  db_URI = "postgresql://<username>@localhost:5432/teas_db"
   secret = "mysecretcode"
   ```
 
-- Ensure your PostgreSQL instance is configured to allow connections with the provided credentials.
+- Ensure your PostgreSQL instance is configured to allow connections with the provided credentials. **_Modify your database connection string to use your username as the `<user.name>`._**
