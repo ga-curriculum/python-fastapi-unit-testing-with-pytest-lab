@@ -28,11 +28,11 @@ Estimated time to complete core lab exercise: **120 min**
 
 ### Starter code
 
-🟢 [Starter code](https://git.generalassemb.ly/modular-curriculum-all-courses/python-fastapi-unit-testing-with-pytest-solution)
+🟢 [Starter code](https://github.com/ga-curriculum/python-fastapi-unit-testing-with-pytest-solution)
 
 ### Solution code
 
-🏁 [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/python-fastapi-unit-testing-with-pytest-lab-solution)
+🏁 [Solution code](https://github.com/ga-curriculum/python-fastapi-unit-testing-with-pytest-lab-solution)
 
 ### Course landing pages
 
